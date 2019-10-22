@@ -40,9 +40,11 @@ you should not have hardcoded API tokens and email addresses in your program
 unrecoverable errors should send an email with exception details 
 
 ## How to run the jar file
-**java -jar emailfxdatatest-1.0.0-SNAPSHOT.jar -DtargetEmail={email id where email will be delivered}**
-example:- java -jar emailfxdatatest-1.0.0-SNAPSHOT.jar -DtargetEmail=xyz@gmail.com
+** java -DtargetEmail={email id where email will be delivered} -jar ConsumeRestApi-1.0.0-SNAPSHOT.jar **
+
+`example:- java -DtargetEmail=sagarika.padhy478@gmail.com -jar ConsumeRestApi-1.0.0-SNAPSHOT.jar `
+
 
 ## approach (maven)
-This is a maven project. Had some issue with gradle in my pc.
+This is a maven project. uploaded gradle project as well.
 writing csv file in classpath and deleting after email sent. Can stream the content. 
